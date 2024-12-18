@@ -186,7 +186,7 @@ def create_env():
         terminal_conditions=[BallTouchGroundCondition()],
         action_parser=masked_action_parser,
         state_setter=BallAboveCarStateSetter(),
-        game_speed=90,
+        game_speed=100,
 )
 
 def main():
