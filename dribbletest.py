@@ -213,7 +213,7 @@ def main():
             clip_range=0.2,
             ent_coef=0.01,
             policy_kwargs=dict(net_arch=[dict(pi=[256, 256], vf=[256, 256])]),
-            device="gpu"
+            device="cpu"
         )
 
     # logging/graphs set
